@@ -1,0 +1,60 @@
+.Hi
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li{
+  float: left;
+}
+Link 
+{
+  color: white;
+  display: inline-block;
+}
+.active
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.actives
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.activess
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* .active{
+  background-color: green;
+} */
+/* .navi
+{
+  background-color: black;
+  height: 50px;
+  width:auto;
+} */
+.li:hover:not(.active)
+{
+ background-color: #111;
+}
+li
+{
+  float: left;
+}
